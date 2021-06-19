@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "Bluu Next";
+	src: url(./assets/bluunext.woff2), url(./assets/bluunext.woff);
+}
+
+body {
+	font-family: "Bluu Next", 'Times New Roman', Times, serif;
+	font-size: 24px;
+	line-height: 1.25;
+	
+	background-color: #f0ebe4;
+	background: url('/assets/Beach.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #333333;
+	height: 100vh;
+
+	transition: background 0.5s ease-in-out;
+}
+
+h1 {
+	font-size: 24px;
+	color:#fff;
+	margin: 16px 0 4px 0;
+}
+
+h2 {
+	font-size: 8vmin;
+	color: #fff;
+}
+
+section {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60%;
+	text-align: center;
+}
+
+.circle {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	border-radius: 9999px;
+}
+
+.controls {
+	background: hsla(0, 0%, 0%, 0.4);
+	backdrop-filter: blur(4px);
+	padding: 16px 12px 24px 12px;
+	border-radius: 9999px;
+	margin-bottom: 40px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer img {
+	margin: 0 20px;
+	cursor: pointer;
+	opacity: .7;
+}
+
+footer img:hover {
+	opacity: 1;
+	transition: .3s;
+}
